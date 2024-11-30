@@ -32,6 +32,7 @@ python-dotenv = "*"
 gunicorn = "*"
 whitenoise = "*"
 django-heroku = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 

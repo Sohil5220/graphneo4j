@@ -14,14 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from django.conf.urls import include
+from django.urls import path, include
 from graphapp import views
-from django.conf.urls import url
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    url(r"^see_nodes/", views.see_nodes, name="see_nodes"),
-    url(r"^", include("graphapp.urls")),
-    url(r"^", views.index, name="index"),
+    path("see_nodes/", views.see_nodes, name="see_nodes"),
+    path("", include("graphapp.urls")),  # include() already handles routing, so no need for a regex here
+    path("", views.index, name="index"),
 ]

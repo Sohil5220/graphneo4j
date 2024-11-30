@@ -3,11 +3,6 @@
 <hr>
 A graph network of Indian celebrities built by scraping Wikipedia and other websites. The graph also includes nodes representing States, Movies, Political Parties, etc and uses Neo4j DBMS to view various celebrities' shortest paths, political connections and so on. 
 
-<!-- ## Members -->
-<!-- - [Shashwat Sharma](https://github.com/svanazar) | [Linkedin](https://www.linkedin.com/in/shashwat-sharma09/) 
-- [Atharva Varde](https://github.com/varde2407) | [Linkedin](https://www.linkedin.com/in/atharva-varde-643a05197/) 
-- [Aditya Trivedi](https://github.com/ad1tyat) | [Linkedin](https://www.linkedin.com/in/trivedi-aditya/)  -->
-
 ## Tech Stack Used
 - Neo4j Database Management System
 - React Libraries for FrontEnd.
@@ -71,4 +66,4 @@ We envisioned this query to be useful when the two celebrities have a large numb
  ## Friend Recommendations :
  - Here, the friend recommendations of a person are his "2nd degree connections", i.e. the people he does not know directly but knows through his own direct connections.
  
- Various other features have been implemented and they can be tested on [http://graph-gg.herokuapp.com/](http://graph-gg.herokuapp.com/)!
+ 
